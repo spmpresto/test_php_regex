@@ -2,13 +2,13 @@ Task 1:
 
 You need to write a function for validating user posts.
 In messages, the user is allowed to use only the following HTML tags and attributes:
-<code>
+```html
 <a href="" title=""> </a>
 <code> </code>
 <i> </i>
 <strike> </strike>
 <strong> </strong>
-</code>
+
 There should be a check for tag closure, proper nesting of tags, and XHTML validity.
 The validation logic must be implemented using regular expressions in PHP, without using built-in DOM functions or similar libraries.
 The function should return true if the message is valid and false otherwise.
