@@ -1,8 +1,9 @@
+```html
 Task 1:
 
 You need to write a function for validating user posts.
 In messages, the user is allowed to use only the following HTML tags and attributes:
-```html
+
 <a href="" title=""> </a>
 <code> </code>
 <i> </i>
